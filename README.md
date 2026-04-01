@@ -2,28 +2,31 @@
 
 ## Objectif
 
-Résoudre un **problème de tournée de véhicules** (TSP/VRP) pour minimiser les coûts de livraison.
+Résoudre un problème de tournée de véhicules (TSP/VRP) pour minimiser les coûts de livraison.
 
-**Contraintes additionnelles**:
+Contraintes additionnelles:
 1. Restrictions d'arêtes : certaines routes peuvent être coûteuses ou interdites
 2. Dépendances de visite : une livraison doit précéder une collecte
 
 ## Structure du Projet
 
 ```
-/
+RO-code_source/
 ├── README.md
 ├── requirement.txt
+├── .gitignore
 │
 ├── livrables/
-│   ├── 01_modélisation.ipynb
-│   ├── 02_algorithmes.ipynb
-│   └── 03_expériences.ipynb
+│   └── G5-livrable.ipynb
 │
-├── docs/
+├── code/
+│   └── code.ipynb
 │
-└── data/
-    └── results/
+├── data/
+│   └── dataset.csv
+│
+└── docs/
+    └── notes.md
 ```
 
 ## Installation
